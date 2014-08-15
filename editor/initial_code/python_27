@@ -1,11 +1,9 @@
-def checkio(a, b):
+def i_love_python():
     """
-        sums two passed arguments
+        Let's explain why do we love Python.
     """
-    return None
+    return "I love Python"
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio(3, 2) == 5
-    assert checkio(5, 7) == 12
-    print('Done')
+    assert i_love_python() == "I love Python!"
